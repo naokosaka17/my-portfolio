@@ -1,0 +1,72 @@
+a {
+	color: #EB989D;
+}
+a:hover {
+	color: #EB989D;
+}
+
+/* menu */
+.nav>li>a:hover {
+	color: #EB989D;
+}
+
+.navbar .navbar-nav > .active > a {
+	color: #EB989D;
+}
+.navbar .navbar-brand:hover {
+	color: #EB989D;
+}
+
+/* flexslider */
+.flex-control-paging li a {
+	background: #EB989D;
+}
+
+.flex-direction-nav a:hover{
+	background-color:#EB989D;
+}
+
+.testimonial span.author a {
+	color: #EB989D;
+}
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+	color: #EB989D;
+	box-shadow: 0 0 0 4px #EB989D;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+	background: #EB989D;
+	box-shadow: 0 0 0 8px  #EB989D;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+	background: #EB989D;
+}
+
+/* btn */
+.btn-theme {
+  background: #EB989D;
+}
+.btn-theme:hover,.btn-theme:focus,.btn-theme:active{
+  background: #EB989D;
+}
+.btn-cta,.btn-cta.btn-lg {
+  background: #EB989D;
+  border-color: #EB989D;
+}
+
+.btn-cta:focus,.btn-cta:active{
+   border-color: #EB989D;
+}
+
+/* footer */
+.social-circle li a {
+	background:#EB989D;
+}
+
+a.scrollup{
+	background:#EB989D;
+}
