@@ -1,9 +1,3 @@
-/*
-    Theme Name: Green
-    Theme URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
 /* ==== Google font ==== */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,100,500,600,700,800,900);
@@ -466,14 +460,14 @@ padding-top: 30px;
 	background-image: url(../img/parallax/4.jpg);
 	height:500px;
 }
-#parallax2{
-	background-image: url(../img/parallax/2.jpg);
-	height:500px;
-}
+
 #testimonials-3{
-	background-image: url(../img/12.jpg);
+	 background: linear-gradient(90deg, rgba(255, 97, 229,0.5), rgba(236, 218, 106,0.5)),
+  url(../img/duck.JPG);
+  background-size: cover;
 	height:500px;
 }
+
 #testimonials-2{
 	background-image: url(../img/6.jpg);
 	height:500px;
@@ -486,7 +480,6 @@ padding-top: 30px;
 .navbar {
 	line-height: 100px;
 	height: 100px;
-	background-color: rgba(5,42,2,0.4);
 	display: block;
 	vertical-align: middle;
 	text-align: center;
@@ -1006,213 +999,6 @@ padding:0 20px 80px;
 .fullwidthbanner a.btn {
 	color: #fff;
 }
-
-/*==========================
-About
-=========================== */
-
-.team-section {
-  width: 100%;
-  min-width: 100%;
-  text-align: center;
-  padding: 100px 0;
-  position: relative;
-}
-.team-section .special-heading {
-  margin-bottom: 30px;
-}
-.team-member {
-  margin: 0 40px 40px;
-  padding: 10px;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
-  -moz-background-clip: border;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  z-index: 2;
-}
-.team-member .profile-picture {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: border;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  overflow: hidden;
-  max-width: 240px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-.team-member .profile-picture .profile-overlay {
-  height: 94%;
-  width: 94%;
-  background-color: #b4dba7;
-  position: absolute;
-  top: 3%;
-  left: 3%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: border;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  -webkit-transition: all 0.6s ease-out;
-  -moz-transition: all 0.6s ease-out;
-  -o-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
-  opacity: 0.3;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-  display: block;
-}
-.team-member .profile-picture img {
-  width: 100%;
-  height: auto;
-  -webkit-border-radius: 50%;
-}
-.team-member h3 {
-  font-size: 1.75em;
-  font-weight: 700;
-  margin-bottom: 0;
-}
-.team-member span {
-  font-size: 0.875em;
-  font-family: 'Titillium Web', sans-serif;
-  text-transform: uppercase;
-  color: #EB989D;
-  padding-top:-10px;
-}
-.team-member .profile-social {
-  font-size: 1.3125em;
-  line-height: 1.9047em;
-  opacity: 1;
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  top: 60%;
-  left:55px;
-  display: none;
-}
-.team-member .profile-social .icons-wrapper {
-  margin: 50px auto 0;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  -webkit-transition: all 0.6s ease-out;
-  -moz-transition: all 0.6s ease-out;
-  -o-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
-}
-.team-member .profile-social .icons-wrapper a {
-  color: #fff;
-  margin: 0 5px;
-}
-.team-member .profile-social .icons-wrapper a:hover {
-  color: #EB989D;
-}
-.team-member .team-bio {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  position: absolute;
-  top: 89%;
-  left: 40px;
-  right: 70px;
-  height: auto;
-  overflow: hidden;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  background-color: rgba(91,223,48,0.25);
-  padding: 0 20px 20px;
-  -webkit-border-radius: 0 0 5px 5px;
-  -moz-border-radius: 0 0 5px 5px;
-  border-radius: 0 0 5px 5px;
-  -moz-background-clip: border;
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  z-index: 1;
-}
-.team-member .team-bio p {
-  font-size: 0.75em;
-  height: auto;
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  margin-bottom: 0;
-}
-.team-member:hover {
-  background-color: rgba(91,223,48,0.12)
-}
-.team-member:hover .profile-picture .profile-overlay {
-  opacity: 0.3;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-.team-member:hover .profile-picture .icons-wrapper {
-  margin-top: 150px;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-}
-.team-member:hover .team-bio {
-  height: auto;
-  overflow: hidden;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  top: 100%;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-.team-member:hover .team-bio p {
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s;
-}
-
-.team-detail h4 span{
-
-	margin-top: 5px;
-}
-.box-bg p{
-padding: 10px 20px;
-font-size: 14px;
-}
-.box-bg h6,h4{
-font-family:'Open Sans', Arial, sans-serif;
-	font-weight:700;
-	line-height:1.1em;
-
-	margin-bottom: 20px;
-
-}
-
-
-
-.box-bg{
-padding: 10px 20px;
-}
-
-
 
 /*===========================
   Portfolio
