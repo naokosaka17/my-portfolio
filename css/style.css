@@ -27,8 +27,15 @@ body {
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	 font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
+
+h5{
+	color: #fff;
+}
+
+
+
 h6 {
-color: #fff;
+	color: #fff;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -84,9 +91,7 @@ a:hover {
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
-.t-uppercase {
-	text-transform: uppercase;
-}
+
 
 /*==========================================================================
   Misc & Adjust
@@ -368,12 +373,6 @@ padding-top: 30px;
   url(../img/lakecomo.JPG);
 	height:400px;
 	background-size: cover;
-}
-rgb(108, 213, 136), rgb(89, 130, 243)
-
-#testimonials-2{
-	background-image: url(../img/6.jpg);
-	height:500px;
 }
 
 /*===========================
@@ -745,15 +744,11 @@ section.featured.inner {
 #header img {
 height: 600px;
 }
-#section-services {
-background-color: #fff;
- height: 650px;
- }
-#section-team{
-background-color: #fff;
-height: 650px;
-}
 #section-about {
+background-color: #F1EDF1;
+height: auto;
+}
+#section-works {
 background-color: #F1EDF1;
 height: auto;
 }
@@ -1002,11 +997,6 @@ nav#filter a {
 	top:-10px;
 }
 
-
-
-.portfolio-item .portfolio-desc .folio-info h5 {
-	text-transform: uppercase;
-}
 .portfolio-item .portfolio-desc .folio-info p {
 	color: #ffffff;
 	font-size: 12px;

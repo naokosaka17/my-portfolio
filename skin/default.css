@@ -30,17 +30,6 @@ a:hover {
 	color: #EB989D;
 }
 
-/* --- icon box hover --- */
-.hi-icon-effect-5 .hi-icon {
-	color: #EB989D;
-	box-shadow: 0 0 0 4px #EB989D;
-}
-.no-touch .hi-icon-effect-5 .hi-icon:hover {
-	background: #EB989D;
-	box-shadow: 0 0 0 8px  #EB989D;
-}
-
-
 /* portfolio */
 .portfolio-item .portfolio-desc {
 	background: #EB989D;
@@ -62,7 +51,7 @@ a:hover {
    border-color: #EB989D;
 }
 
-/* footer */
+/* contact */
 .social-circle li a {
 	background:#EB989D;
 }

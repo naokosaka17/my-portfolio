@@ -44,8 +44,7 @@
                     <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
                         <li class="active"><a href="#about-slider">Home</a></li>
                         <li><a href="#section-about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#services">Service</a></li>
+                        <li><a href="#section-works">Portfolio</a></li>
                         <li><a href="#parallax1">Contact</a></li>
                     </ul>
                 </div>
@@ -53,7 +52,6 @@
             </div>
         </section>
     </div>
-
 
     <div class="slider">
         <div id="about-slider">
@@ -79,29 +77,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="item">
-                        <img src="img/budapest.JPG" class="img-responsive" alt="">
-                        <div class="carousel-caption">
-                            <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
-                                <h2></h2>
-                            </div>
-                            <div class="col-md-10 col-md-offset-1">
-                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-                <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-
-                <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
-                    <i class="fa fa-angle-right"></i>
-                </a>
             </div>
             <!--/#carousel-slider-->
         </div>
@@ -140,7 +116,7 @@
                         <div class="col-lg-6 ">
                             <div class="mar-left10">
                                 <h4>I'm a junior web developer in Florida.</h4>
-                                <p>I was born in Tokyo, Japan. After college in Japan, I've been working in Airline industry as a flight attendant for almost 9 years.  After traveling the world and fulfilling the professional ambitions I set out earlier in my career and jump into computer programming industry. When I have free time, I play disc golf at park with husband. It is very fun as much as like coding!! </p>
+                                <p>I was born in Tokyo, Japan. After college in Japan,  I've been working in Airline industry as a flight attendant based in Shanghai and Kuala Lumpur. After traveling the world and fulfilling the professional ambitions I set out earlier in my career and jump into computer programming industry.  When I have free time, I play disc golf at park with husband. It is very fun as much as like coding!! </p>
                             </div>
                         </div>
                     </div>
@@ -172,40 +148,59 @@
     </section>
 
     <!-- section works -->
-    <section id="portfolio" class="section appear clearfix">
+    <section id="section-works" class="section appear clearfix">
         <div class="container">
 
             <div class="row mar-bot40">
                 <div class="col-md-offset-3 col-md-6">
                     <div class="section-header">
                         <h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <nav id="filter" class="col-md-12 text-center">
-                    <ul>
-                        <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Web Design</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-                        <li><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
-                    </ul>
-                </nav>
                 <div class="col-md-12">
                     <div class="row">
                         <div class="portfolio-items isotopeWrapper clearfix" id="3">
 
+                          <article class="col-md-4 isotopeItem print">
+                              <div class="portfolio-item">
+                                  <div class="wow rotateInUpLeft">
+                                      <img src="img/portfolio/mario.png" alt="" />
+                                  </div>
+                                  <div class="portfolio-desc align-center">
+                                      <div class="folio-info">
+                                          <h5><a href= "https://github.com/naokosaka17/week-4-game" target= "_blank">jQuery</a></h5>
+                                          <a href="img/portfolio/jQuery.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </article>
+
                             <article class="col-md-4 isotopeItem webdesign">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInUpLeft" data-animation-delay="4.8s">
-                                        <img src="img/portfolio/1.jpg" alt="welcome" />
+                                        <img src="img/portfolio/trivia.png" alt="Disney Trivia" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Project name 1</a></h5>
-                                            <a href="img/portfolio/1.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href= "https://github.com/naokosaka17/Trivia-game" target= "_blank">Timer</a></h5>
+                                            <a href="img/portfolio/timer.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <div class="wow rotateInDownRight">
+                                        <img src="img/portfolio/step.png" alt="group project" />
+                                    </div>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h5><a href= "https://github.com/naokosaka17/group-project-Step-into-town" target= "_blank">Google map</a></h5>
+                                            <a href="img/portfolio/googlemap.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -214,27 +209,12 @@
                             <article class="col-md-4 isotopeItem photography">
                                 <div class="portfolio-item">
                                     <div class="wow bounceIn">
-                                        <img src="img/portfolio/2.jpg" alt="" />
+                                        <img src="img/portfolio/princess.png" alt="" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Project name 2</a></h5>
-                                            <a href="img/portfolio/2.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-
-                            <article class="col-md-4 isotopeItem photography">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/portfolio/3.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="#">Project name 3</a></h5>
-                                            <a href="img/portfolio/3.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href= "https://github.com/naokosaka17/FriendFinder" target= "_blank">Routing</a></h5>
+                                            <a href="img/portfolio/ownapi.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -243,12 +223,12 @@
                             <article class="col-md-4 isotopeItem print">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInUpLeft">
-                                        <img src="img/portfolio/4.jpg" alt="" />
+                                        <img src="img/portfolio/namaste.png" alt="" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Project name 4</a></h5>
-                                            <a href="img/portfolio/4.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href= "https://github.com/naokosaka17/namaste1" target= "_blank">Handlebars</a></h5>
+                                            <a href="img/portfolio/handlebars.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -257,12 +237,40 @@
                             <article class="col-md-4 isotopeItem photography">
                                 <div class="portfolio-item">
                                     <div class="wow bounceIn">
-                                        <img src="img/portfolio/5.jpg" alt="" />
+                                        <img src="img/portfolio/burger.png" alt="" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Project name 5</a></h5>
-                                            <a href="img/portfolio/5.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href= "https://github.com/naokosaka17/sequelizedBurger" target= "_blank">MySQL DB use Sequelize</a></h5>
+                                            <a href="img/portfolio/sql.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <div class="wow bounceIn">
+                                        <img src="img/portfolio/us.png" alt="" />
+                                    </div>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h5><a href= "https://github.com/naokosaka17/mongoScraper" target= "_blank">Scrape</a></h5>
+                                            <a href="img/portfolio/scrape.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="col-md-4 isotopeItem photography">
+                                <div class="portfolio-item">
+                                    <div class="wow bounceIn">
+                                        <img src="img/portfolio/todolist.png" alt="" />
+                                    </div>
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <h5><a href= "https://github.com/naokosaka17/angularToDo" target= "_blank">MongoDB</a></h5>
+                                            <a href="img/portfolio/mongo.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -271,58 +279,17 @@
                             <article class="col-md-4 isotopeItem webdesign">
                                 <div class="portfolio-item">
                                     <div class="wow rotateInDownRight">
-                                        <img src="img/portfolio/6.jpg" alt="" />
+                                        <img src="img/portfolio/flight.png" alt="" />
                                     </div>
                                     <div class="portfolio-desc align-center">
                                         <div class="folio-info">
-                                            <h5><a href="#">Project name 6</a></h5>
-                                            <a href="img/portfolio/6.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
+                                            <h5><a href="https://github.com/naokosaka17/flight-search" target="_blank">AngularJS & API call</a></h5>
+                                            <a href="img/portfolio/angular.png" class="fancybox"><i class="fa fa-code fa-2x"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </article>
 
-                            <article class="col-md-4 isotopeItem print">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInUpLeft">
-                                        <img src="img/portfolio/7.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="#">Project name 7</a></h5>
-                                            <a href="img/portfolio/7.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="col-md-4 isotopeItem photography">
-                                <div class="portfolio-item">
-                                    <div class="wow bounceIn">
-                                        <img src="img/portfolio/8.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="#">Project name 8</a></h5>
-                                            <a href="img/portfolio/8.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="col-md-4 isotopeItem print">
-                                <div class="portfolio-item">
-                                    <div class="wow rotateInDownRight">
-                                        <img src="img/portfolio/9.jpg" alt="" />
-                                    </div>
-                                    <div class="portfolio-desc align-center">
-                                        <div class="folio-info">
-                                            <h5><a href="#">Project name 9</a></h5>
-                                            <a href="img/portfolio/9.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
                         </div>
                     </div>
                 </div>
@@ -341,7 +308,7 @@
                           <h2 class="section-heading animated" data-animation="bounceInUp">Contact</h2>
                           <p>
                             Thanks for your visit on my portfolio<br />
-                            I'm exciting to work with you!
+                            I'm exciting to see you!
                           </p>
                       </div>
                   </div>
