@@ -646,7 +646,7 @@ section.featured h2.slogan {
 	  display: block;
 	  width: 100% \9;
 	  max-width: 100%;
-	  
+
 	}
 }
 
@@ -725,7 +725,6 @@ margin-left: 100px;
 
 
 .circle{
-
   font-size: px;
   width: 200px;
   height: 200px;
@@ -849,6 +848,8 @@ nav#filter a {
 nav#filter a:hover, nav#filter a.current {
 	background-color: #EB989D;
 	color:#fff;
+	border-radius: 5px;
+
 }
 
 /* ------- */
