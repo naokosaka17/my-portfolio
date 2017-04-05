@@ -325,6 +325,9 @@ cursor: pointer;
 .mar-bot35 {
 	margin-bottom: 35px;
 }
+.mar-bot40 {
+	margin-bottom: 40px;
+}
 .mar-bot45 {
 	margin-bottom: 45px;
 }
@@ -366,7 +369,7 @@ section.section {
 }
 
 #contact{
-	background: linear-gradient(90deg, rgba(249, 88, 174,0.4), rgba(180, 255, 82,0.4)),
+	background: linear-gradient(90deg, rgba(249, 88, 174,0.5), rgba(180, 255, 82,0.4)),
   url(../img/lakecomo.JPG);
 	height:430px;
 	background-size: cover;
@@ -662,7 +665,7 @@ padding-top: 20px;
   padding-bottom: 20px;
 }
 .title{
-padding-top: 50px;
+padding-top: 80px;
 text-align: center;
 }
 .motto{
@@ -762,6 +765,7 @@ height: auto;
 #portfolio {
 background-color: #F1EDF1;
 height: auto;
+padding-top: 20px;
 }
 
 .about{
@@ -836,20 +840,6 @@ img{
 /* removing default arrows */
 .flex-direction-nav a:before {
 	content: none !important;
-}
-
-/*===========================
-  Portfolio
-============================ */
-nav#filter a {
-	background-color: #EEE;
-	color:#555;
-}
-nav#filter a:hover, nav#filter a.current {
-	background-color: #EB989D;
-	color:#fff;
-	border-radius: 5px;
-
 }
 
 /*===========================
@@ -995,7 +985,7 @@ nav#filter a {
 section#footer {
 	background: #4D3B3B;
 	margin: 0;
-	padding-top: 80px;
+	padding-top: 50px;
 	padding-bottom: 30px;
 }
 
@@ -1046,7 +1036,9 @@ a.scrollup:hover{
 	color:#fff;
 	font-size:18px;
 	line-height:30px;
-
+}
+.colorw{
+	color: #fff;
 }
 
 /*===========================
