@@ -365,7 +365,7 @@ padding-top: 30px;
 	height:430px;
 }
 
-#parallax1{
+#contact{
 	background: linear-gradient(90deg, rgba(249, 88, 174,0.4), rgba(180, 255, 82,0.4)),
   url(../img/lakecomo.JPG);
 	height:430px;
@@ -754,12 +754,12 @@ section.featured.inner {
 height: 600px;
 }
 
-#section-about {
+#about {
 background-color: #F1EDF1;
 height: auto;
 }
 
-#section-works {
+#portfolio {
 background-color: #F1EDF1;
 height: auto;
 }
@@ -852,10 +852,27 @@ nav#filter a:hover, nav#filter a.current {
 
 }
 
+/*===========================
+  Portfolio
+============================ */
+nav#filter a {
+	background-color: #EEE;
+	color:#555;
+}
+nav#filter a:hover, nav#filter a.current {
+	background-color: #EB989D;
+	color:#fff;
+}
 /* ------- */
 
 .isotopeWrapper article{
     margin-bottom: 30px;
+}
+
+@media (max-width: 1700px){
+	.isotopeWrapper article{
+	   margin-bottom: 50px;
+	}
 }
 
 #portfolio img  {
