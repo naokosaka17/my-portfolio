@@ -347,7 +347,7 @@ section.section {
 /* --- section heading --- */
 .section-header {
 	text-align: center;
-padding-top: 30px;
+	padding-top: 30px;
 }
 .section-header h2.section-heading {
 	text-transform: uppercase;
@@ -959,6 +959,9 @@ nav#filter a {
 	font-size: 12px;
 }
 
+.nopad{
+	padding: 0;
+}
 
 /*===========================
   --- Testimonial ----
