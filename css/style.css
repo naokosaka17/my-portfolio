@@ -217,6 +217,9 @@ cursor: pointer;
 }.pad-top50 {
 	padding-top: 50px;
 }
+.pad-top100 {
+	padding-top: 100px;
+}
 /* bottom */
 .pad-bot0 {
 	padding-bottom: 0;
@@ -322,9 +325,6 @@ cursor: pointer;
 .mar-bot35 {
 	margin-bottom: 35px;
 }
-.mar-bot40 {
-	margin-bottom: 40px;
-}
 .mar-bot45 {
 	margin-bottom: 45px;
 }
@@ -336,7 +336,7 @@ cursor: pointer;
 
 section.section {
 	margin:0;
-	padding: 60px 0 40px 0;
+
 }
 
 
@@ -662,7 +662,7 @@ padding-top: 20px;
   padding-bottom: 20px;
 }
 .title{
-padding-top: 100px;
+padding-top: 50px;
 text-align: center;
 }
 .motto{
@@ -995,6 +995,8 @@ nav#filter a {
 section#footer {
 	background: #4D3B3B;
 	margin: 0;
+	padding-top: 80px;
+	padding-bottom: 30px;
 }
 
 section#footer .copyright {
