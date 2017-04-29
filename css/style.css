@@ -368,7 +368,7 @@ section.section {
 #contact{
 	background: linear-gradient(90deg, rgba(249, 88, 174,0.4), rgba(180, 255, 82,0.4)),
   url(../img/lakecomo.JPG);
-	height:430px;
+	height:400px;
 	background-size: cover;
 }
 
